@@ -99,6 +99,7 @@ TEST(TBitField, throws_when_clear_bit_with_too_large_index)
 
 TEST(TBitField, can_assign_bitfields_of_equal_size)
 {
+
   const int size = 2;
   TBitField bf1(size), bf2(size);
   for (int i = 0; i < size; i++)
